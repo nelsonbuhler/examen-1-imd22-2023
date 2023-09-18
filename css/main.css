@@ -35,3 +35,18 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+
+.article img {
+  border-bottom: solid #d7a1fd 7px;
+  width: 189px;
+  height: 126px;
+}
+
+.article div {
+  border-top: solid black 0px;
+  border: solid black 1px;
+}
+
+.article p {
+  margin: 10px 5px;
+}
