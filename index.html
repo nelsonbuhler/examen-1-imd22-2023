@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/couleur.css" />
     <link rel="stylesheet" href="css/typo.css" />
+    <link rel="stylesheet" href="css/flexbox.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,22 +31,26 @@
     </header>
     <main>
       <h2>what's on</h2>
-      <div class="article">
-        <img
-          src="img/article-1.png"
-          alt="homme portant un serpant dans les bras"
-        />
-        <p><span class="article-info">thu 12 oct 2023</span></p>
-        <p>desire marea</p>
-        <p><span class="article-info">[south africa]</span></p>
+      <div class="article-container">
+        <div class="article">
+          <img
+            src="img/article-1.png"
+            alt="homme portant un serpant dans les bras"
+          />
+          <p><span class="article-info">thu 12 oct 2023</span></p>
+          <p>desire marea</p>
+          <p><span class="article-info">[south africa]</span></p>
+        </div>
+        <div class="article">
+          <img
+            src="img/article-2.png"
+            alt="groupe de personne prenant la pose"
+          />
+          <p><span class="article-info">thu 19 oct 2023</span></p>
+          <p>pumpitopera transatlantica</p>
+          <p><span class="article-info">[brazil]</span></p>
+        </div>
       </div>
-      <div class="article">
-        <img src="img/article-2.png" alt="groupe de personne prenant la pose" />
-        <p><span class="article-info">thu 19 oct 2023</span></p>
-        <p>pumpitopera transatlantica</p>
-        <p><span class="article-info">[brazil]</span></p>
-      </div>
-
       <a class="button" href="">see full programme</a>
 
       <div class="citation-container">
@@ -57,48 +62,54 @@
         <p>the guardian</p>
       </div>
 
-      <div class="news-container">
+      <div class="what-new">
         <h2>what's new</h2>
-        <div class="news">
-          <img
-            src="img/news-1.png"
-            alt="artiste sur scène devant des spéctateur"
-          />
-          <p>
-            <strong>One month to go —</strong> With one month to go until
-            Transform 23, we’re today announcing a series of new commissions, DJ
-            sets and immersive encounters to deepen your experience of the
-            festival.
-          </p>
-        </div>
-        <div class="news">
-          <img
-            src="img/news-2.png"
-            alt="image d'une personne derrière un flou coloré"
-          />
-          <p>
-            <strong>If walls could talk — </strong> Opening the festival
-            alongside Ásrún Magnúsdóttir’s SECRETS, Transform’s Young Curators
-            present IF WALLS COULD TALK.
-          </p>
+        <div class="news-container">
+          <div class="news">
+            <img
+              src="img/news-1.png"
+              alt="artiste sur scène devant des spéctateur"
+            />
+            <p>
+              <strong>One month to go —</strong> With one month to go until
+              Transform 23, we’re today announcing a series of new commissions,
+              DJ sets and immersive encounters to deepen your experience of the
+              festival.
+            </p>
+          </div>
+          <div class="news">
+            <img
+              src="img/news-2.png"
+              alt="image d'une personne derrière un flou coloré"
+            />
+            <p>
+              <strong>If walls could talk — </strong> Opening the festival
+              alongside Ásrún Magnúsdóttir’s SECRETS, Transform’s Young Curators
+              present IF WALLS COULD TALK.
+            </p>
+          </div>
         </div>
       </div>
 
       <h2 class="end-title">opportunities</h2>
-      <div><h3>sottobosco: workshop call out</h3></div>
-      <div><h3>volunteer call out</h3></div>
-      <div><h3>join the distorded rap choir</h3></div>
+      <div class="opportunitie-container">
+        <div><h3>sottobosco: workshop call out</h3></div>
+        <div><h3>volunteer call out</h3></div>
+        <div><h3>join the distorded rap choir</h3></div>
+      </div>
     </main>
     <footer>
       <h2>transform</h2>
-      <div>
-        <p>contact</p>
-        <a href="">info@transformfestival.org</a>
-      </div>
 
-      <div>
-        <p>comms</p>
-        <a href="">comms@transformfestival.org</a>
+      <div class="mail-container">
+        <div>
+          <p>contact</p>
+          <a href="">info@transformfestival.org</a>
+        </div>
+        <div>
+          <p>comms</p>
+          <a href="">comms@transformfestival.org</a>
+        </div>
       </div>
     </footer>
   </body>
