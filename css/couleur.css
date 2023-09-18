@@ -1,0 +1,55 @@
+:root {
+  --main-color: #d7a1fd;
+  --sec-color: #98fb00;
+}
+
+header {
+  background-color: var(--main-color);
+}
+
+.header-leading {
+  color: white;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+img {
+  background-color: var(--main-color);
+}
+
+.button {
+  background-color: black;
+  color: var(--main-color);
+}
+
+.citation-container {
+  background-color: var(--sec-color);
+}
+
+.news-container {
+  background-color: #f4ede8;
+}
+
+.news-container div {
+  background-color: white;
+}
+
+.end-title {
+  background-color: var(--main-color);
+}
+
+h3 {
+  background-color: var(--sec-color);
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h2 {
+  color: #313131;
+}
