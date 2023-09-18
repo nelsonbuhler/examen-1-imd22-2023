@@ -8,15 +8,25 @@ nav {
   justify-content: space-around;
 }
 
+.article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .news-container {
   display: flex;
   justify-content: space-around;
 }
 
-.article div {
+.news {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+}
+
+.special-selection {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .opportunitie-container {

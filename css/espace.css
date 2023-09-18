@@ -1,0 +1,59 @@
+h1 {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+header div {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+nav p {
+  padding: 20px;
+}
+
+h2 {
+  padding: 60px 20px 30px 20px;
+}
+
+.button-container {
+  margin: 50px;
+  margin-bottom: 80px;
+}
+
+.button {
+  padding: 20px 30px;
+}
+
+.citation-container {
+  padding: 20px;
+}
+
+.citation-container div {
+  padding-top: 20px;
+}
+
+.what-new {
+  padding-bottom: 60px;
+}
+
+.news-container {
+  margin: 0px 20px;
+  margin-top: 0px;
+}
+
+.end-title {
+  padding: 20px;
+}
+
+.opportunitie-container {
+  margin-bottom: 60px;
+}
+
+footer h2 {
+  padding: 20px;
+}
+
+footer {
+  padding-bottom: 112px;
+}

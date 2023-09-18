@@ -13,6 +13,8 @@ header {
 
 h1 {
   font-family: var(--nonito);
+  font-size: 50px;
+  line-height: 50px;
 }
 
 em {
@@ -22,15 +24,22 @@ em {
 
 .header-leading {
   font-family: var(--noto);
+  font-size: 20px;
+  line-height: 24px;
 }
 
 nav {
   font-family: var(--noto);
+  font-size: 18px;
+  line-height: 22px;
 }
 
 h2 {
   font-family: var(--noto);
   text-transform: uppercase;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: normal;
 }
 
 .end-title {
@@ -44,33 +53,51 @@ footer h2 {
 .article p {
   font-family: var(--nonito);
   text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .article-info {
   font-family: var(--noto);
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 15px;
 }
 
 .button {
   font-family: var(--nonito);
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 15px;
+  font-style: italic;
 }
 
 .citation-container {
   font-family: var(--noto);
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 15px;
 }
 
 .citation {
   font-family: var(--nonito);
-  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 28px;
+  font-style: italic;
+  letter-spacing: -1.5;
 }
 
 .news {
   font-family: var(--noto);
   text-align: left;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .news strong {
   font-family: var(--nonito);
+  text-transform: uppercase;
   font-weight: normal;
 }
 
@@ -78,13 +105,22 @@ h3 {
   font-family: var(--nonito);
   text-transform: uppercase;
   text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: italic;
+  letter-spacing: -1px;
 }
 
 footer p {
   font-family: var(--nonito);
   text-transform: uppercase;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 footer a {
   font-family: var(--noto);
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
 }

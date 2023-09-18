@@ -50,3 +50,19 @@ video {
 .article p {
   margin: 10px 5px;
 }
+
+.news img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 189px;
+  height: 259;
+}
+
+.news {
+  border-radius: 20px;
+}
+
+h3 {
+  border: solid black 1px;
+  padding: 20px 10px;
+}
