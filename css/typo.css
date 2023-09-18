@@ -1,0 +1,90 @@
+:root {
+  --noto: "Noto Serif", serif;
+  --nonito: "Nunito Sans", sans-serif;
+}
+
+html {
+  text-align: center;
+}
+
+header {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: var(--nonito);
+}
+
+em {
+  font-family: var(--noto);
+  font-style: normal;
+}
+
+.header-leading {
+  font-family: var(--noto);
+}
+
+nav {
+  font-family: var(--noto);
+}
+
+h2 {
+  font-family: var(--noto);
+  text-transform: uppercase;
+}
+
+.end-title {
+  font-family: var(--nonito);
+}
+
+footer h2 {
+  font-family: var(--nonito);
+}
+
+.article p {
+  font-family: var(--nonito);
+  text-transform: uppercase;
+}
+
+.article-info {
+  font-family: var(--noto);
+}
+
+.button {
+  font-family: var(--nonito);
+  text-decoration: none;
+}
+
+.citation-container {
+  font-family: var(--noto);
+}
+
+.citation {
+  font-family: var(--nonito);
+  text-transform: uppercase;
+}
+
+.news {
+  font-family: var(--noto);
+  text-align: left;
+}
+
+.news strong {
+  font-family: var(--nonito);
+  font-weight: normal;
+}
+
+h3 {
+  font-family: var(--nonito);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+footer p {
+  font-family: var(--nonito);
+  text-transform: uppercase;
+}
+
+footer a {
+  font-family: var(--noto);
+}
