@@ -56,3 +56,9 @@ video {
   border-bottom-left-radius: 20px;
   width: 189px;
 }
+
+.opportunities-title {
+  border: solid black 1px;
+  width: 214px;
+  height: 112px;
+}

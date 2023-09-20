@@ -90,6 +90,7 @@ footer h2 {
 
 .news {
   font-family: var(--noto);
+  text-align: left;
   font-size: 15px;
   line-height: 22px;
 }
