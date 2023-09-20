@@ -16,6 +16,10 @@ h2 {
   padding: 60px 20px 30px 20px;
 }
 
+.article p {
+  margin: 10px 5px;
+}
+
 .button-container {
   margin: 50px;
   margin-bottom: 80px;
@@ -35,6 +39,10 @@ h2 {
 
 .what-new {
   padding-bottom: 60px;
+}
+
+.news-container {
+  margin: 0px 20px;
 }
 
 .news p {

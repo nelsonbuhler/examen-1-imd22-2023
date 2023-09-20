@@ -44,10 +44,6 @@ video {
   border: solid black 1px;
 }
 
-.article p {
-  margin: 10px 5px;
-}
-
 .news img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
