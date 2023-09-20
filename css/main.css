@@ -39,8 +39,8 @@ video {
   height: 126px;
 }
 
-.article div {
-  border-top: solid black 0px;
+.article {
+  border-top: none black 1px;
   border: solid black 1px;
 }
 
@@ -52,14 +52,11 @@ video {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 189px;
-  height: 259;
+  height: 258.997px;
 }
 
-.news {
-  border-radius: 20px;
-}
-
-h3 {
-  border: solid black 1px;
-  padding: 20px 10px;
+.news div {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 189px;
 }

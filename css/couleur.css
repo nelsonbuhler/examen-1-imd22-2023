@@ -33,7 +33,7 @@ img {
   background-color: #f4ede8;
 }
 
-.news {
+.news div {
   background-color: white;
 }
 
@@ -41,7 +41,7 @@ img {
   background-color: var(--main-color);
 }
 
-h3 {
+.opportunities-title {
   background-color: var(--sec-color);
 }
 

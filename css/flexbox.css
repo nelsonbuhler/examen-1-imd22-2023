@@ -17,6 +17,7 @@ nav {
 .news-container {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
 }
 
 .news {
@@ -25,11 +26,6 @@ nav {
 }
 
 .special-selection {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.opportunitie-container {
   display: flex;
   flex-wrap: wrap;
 }

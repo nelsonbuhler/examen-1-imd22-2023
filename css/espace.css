@@ -37,17 +37,21 @@ h2 {
   padding-bottom: 60px;
 }
 
-.news-container {
-  margin: 0px 20px;
-  margin-top: 0px;
-}
-
-.end-title {
-  padding: 20px;
+.news p {
+  margin: 20px;
 }
 
 .opportunitie-container {
   margin-bottom: 60px;
+}
+
+.opportunities-title {
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.end-title {
+  padding: 20px;
 }
 
 footer h2 {
